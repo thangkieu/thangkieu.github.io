@@ -7,6 +7,7 @@ body {
   background-color: #f4f4f4;
   font-size: 16px;
   line-height: 1.4;
+  margin: 0; 
 }
 
 p {
@@ -22,7 +23,7 @@ p {
 
 
 article {
-  margin: 5px;
+  margin: 16px;
   padding: 16px;
   border-radius: 2px;
   background-color: white;
@@ -43,6 +44,10 @@ article {
       width: 100px;
     }
   }
+
+  @media (min-width: 768px) {
+    margin: 5px;
+  }
 }
 
 img {
@@ -50,10 +55,10 @@ img {
 }
 
 header {
-  display: flex;
+  /*display: flex;*/
 
   .avatar {
-    width: 250px;
+    /*width: 250px;*/
     flex-shrink: 0;
 
     img {
@@ -63,26 +68,39 @@ header {
 
   .right {
     flex-grow: 1;
-    display: flex;
+    /*display: flex;*/
     flex-direction: column;
 
     article {
       flex: 1 1 auto;
     }
   }
+
+  @media (min-width: 768px) {
+    .avatart {
+      width: 250px;
+    }
+
+    &,
+    .right {
+      display: flex;
+    }
+  }
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-}
+@media (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
+  .row {
+    display: flex;
+    flex-wrap: wrap;
 
-  article {
-    flex: 1 1 0;
+    article {
+      flex: 1 1 0;
+    }
   }
 }
 
@@ -152,20 +170,25 @@ main {
 .card {
   box-shadow: $box-shadow-ui;
   background: white;
-  margin: 5px;
+  margin: 16px;
   border-radius: 2px;
   
   .top {
-    margin: 16px;
+    padding: 16px;
   }
 
   .title {
     margin-bottom: 8px;
+    margin-top: 0;
     font-weight: normal
   }
 
   .subtitle {
     margin: 0;
+  }
+
+  @media (min-width: 768px) {
+    margin: 5px;
   }
 }
 
