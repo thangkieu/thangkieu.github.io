@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "gulp-imagemin": "^3.4.0"
+  }
+}
