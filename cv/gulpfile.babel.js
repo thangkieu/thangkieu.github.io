@@ -20,7 +20,8 @@ const assets = {
 gulp.task('browser-sync', () => {
   browserSyncIns.init([
       assets.dist.css + 'style.css',
-      assets.dist.js + 'index.js'
+      assets.dist.js + 'index.js',
+      rootFolder + 'index.html'
     ], {
     server: {
       baseDir: rootFolder
