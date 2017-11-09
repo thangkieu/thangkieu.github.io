@@ -1,0 +1,52 @@
+$base-color: #1E88E5;
+$box-shadow-ui: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+
+body {
+  font-family: Roboto, Helvetica, san-serif;
+  font-weight: 300;
+  background-color: #f4f4f4;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 0; 
+}
+
+p {
+  margin: 0;
+  margin-bottom: 8px
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+
+  @media (min-width: 768px) {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+
+.card {
+  box-shadow: $box-shadow-ui;
+  background: white;
+  margin: 16px;
+  border-radius: 2px;
+  
+  .top {
+    padding: 16px;
+  }
+
+  .title {
+    margin-bottom: 8px;
+    margin-top: 0;
+    font-weight: normal
+  }
+
+  .subtitle {
+    margin: 0;
+  }
+
+  @media (min-width: 768px) {
+    margin: 5px;
+  }
+}

@@ -1,0 +1,29 @@
+<html>
+
+<head>
+  <title>Calendar</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="dist/css/style.css">
+
+  <script src="https://unpkg.com/vue"></script>
+</head>
+  
+<body>
+  <div class="container">
+  	<header></header>
+    <main id="app">
+      <div class="container">
+        <div class="card">
+          <div class="top">
+            <h3 class="title">{{message}}</h3>
+            <button v-on:click="handleGenerateLunarCalendar">Generate Lunar Calendar</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="dist/js/bundle.js"></script>
+</body>
+
+</html>
