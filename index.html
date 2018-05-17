@@ -2,11 +2,21 @@
 <html>
 
 <head>
-  <script src="https://www.google.com/recaptcha/api.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js?render=6LdFxlkUAAAAAPT0wInEwitV4soBcEBqjYibMz1G'></script>
 </head>
 
 <body>
+  <div id="app"></div>
   <div class="g-recaptcha" data-sitekey="6LcbxVkUAAAAAHp8ZeJxuzNqUvTW4P7UmZoKb-q0"></div>
+  <script>
+    grecaptcha.ready(function() {
+      grecaptcha.execute('6LdFxlkUAAAAAPT0wInEwitV4soBcEBqjYibMz1G', {action: 'action_name'})
+        .then(function(token) {
+        var el = document.getElementById('app');
+        el.innerText = token;
+      });
+    });
+    </script>
 </body>
 
 </html>
