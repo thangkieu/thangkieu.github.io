@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.js": "/dbs/static/js/main.b1c54e5f.chunk.js",
+    "main.js.map": "/dbs/static/js/main.b1c54e5f.chunk.js.map",
+    "runtime-main.js": "/dbs/static/js/runtime-main.88088231.js",
+    "runtime-main.js.map": "/dbs/static/js/runtime-main.88088231.js.map",
+    "static/css/2.679831fc.chunk.css": "/dbs/static/css/2.679831fc.chunk.css",
+    "static/js/2.a1500fc9.chunk.js": "/dbs/static/js/2.a1500fc9.chunk.js",
+    "static/js/2.a1500fc9.chunk.js.map": "/dbs/static/js/2.a1500fc9.chunk.js.map",
+    "static/js/3.a0a1c191.chunk.js": "/dbs/static/js/3.a0a1c191.chunk.js",
+    "static/js/3.a0a1c191.chunk.js.map": "/dbs/static/js/3.a0a1c191.chunk.js.map",
+    "index.html": "/dbs/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/dbs/static/css/2.679831fc.chunk.css.map",
+    "static/js/2.a1500fc9.chunk.js.LICENSE.txt": "/dbs/static/js/2.a1500fc9.chunk.js.LICENSE.txt",
+    "static/media/dbs_posb_desktop.40f52c96.svg": "/dbs/static/media/dbs_posb_desktop.40f52c96.svg",
+    "static/media/dbs_posb_mobile.a890aef2.svg": "/dbs/static/media/dbs_posb_mobile.a890aef2.svg",
+    "static/media/howitworks-1.2881a2d7.e44fd655.svg": "/dbs/static/media/howitworks-1.2881a2d7.e44fd655.svg",
+    "static/media/howitworks-2.b6b60dae.279cc1cc.svg": "/dbs/static/media/howitworks-2.b6b60dae.279cc1cc.svg",
+    "static/media/howitworks-3.37db1139.c7b96342.svg": "/dbs/static/media/howitworks-3.37db1139.c7b96342.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88088231.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.a1500fc9.chunk.js",
+    "static/js/main.b1c54e5f.chunk.js"
+  ]
+}
