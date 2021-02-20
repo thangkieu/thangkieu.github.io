@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.js": "/nomination/static/js/main.b19aef9f.chunk.js",
+    "main.js.map": "/nomination/static/js/main.b19aef9f.chunk.js.map",
+    "runtime-main.js": "/nomination/static/js/runtime-main.a54b719b.js",
+    "runtime-main.js.map": "/nomination/static/js/runtime-main.a54b719b.js.map",
+    "static/css/2.679831fc.chunk.css": "/nomination/static/css/2.679831fc.chunk.css",
+    "static/js/2.efb7c63b.chunk.js": "/nomination/static/js/2.efb7c63b.chunk.js",
+    "static/js/2.efb7c63b.chunk.js.map": "/nomination/static/js/2.efb7c63b.chunk.js.map",
+    "static/js/3.974d457b.chunk.js": "/nomination/static/js/3.974d457b.chunk.js",
+    "static/js/3.974d457b.chunk.js.map": "/nomination/static/js/3.974d457b.chunk.js.map",
+    "static/js/4.d0719b32.chunk.js": "/nomination/static/js/4.d0719b32.chunk.js",
+    "static/js/4.d0719b32.chunk.js.map": "/nomination/static/js/4.d0719b32.chunk.js.map",
+    "static/js/5.e76ae6b8.chunk.js": "/nomination/static/js/5.e76ae6b8.chunk.js",
+    "static/js/5.e76ae6b8.chunk.js.map": "/nomination/static/js/5.e76ae6b8.chunk.js.map",
+    "static/js/6.112d57c3.chunk.js": "/nomination/static/js/6.112d57c3.chunk.js",
+    "static/js/6.112d57c3.chunk.js.map": "/nomination/static/js/6.112d57c3.chunk.js.map",
+    "index.html": "/nomination/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/nomination/static/css/2.679831fc.chunk.css.map",
+    "static/js/2.efb7c63b.chunk.js.LICENSE.txt": "/nomination/static/js/2.efb7c63b.chunk.js.LICENSE.txt",
+    "static/media/close.17a94979.svg": "/nomination/static/media/close.17a94979.svg",
+    "static/media/down-chevron.5c07ce46.svg": "/nomination/static/media/down-chevron.5c07ce46.svg",
+    "static/media/features-planning-ahead.7283f3e6.png": "/nomination/static/media/features-planning-ahead.7283f3e6.png",
+    "static/media/menu.28107808.svg": "/nomination/static/media/menu.28107808.svg",
+    "static/media/mylegacy-hero.994a159d.png": "/nomination/static/media/mylegacy-hero.994a159d.png",
+    "static/media/secured-sharing-hero.a32e7cc2.png": "/nomination/static/media/secured-sharing-hero.a32e7cc2.png",
+    "static/media/when-death-happens.acbe6281.png": "/nomination/static/media/when-death-happens.acbe6281.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a54b719b.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.efb7c63b.chunk.js",
+    "static/js/main.b19aef9f.chunk.js"
+  ]
+}
