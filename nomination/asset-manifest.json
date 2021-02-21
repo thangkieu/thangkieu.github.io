@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/nomination/static/js/main.c8f6836a.chunk.js",
-    "main.js.map": "/nomination/static/js/main.c8f6836a.chunk.js.map",
-    "runtime-main.js": "/nomination/static/js/runtime-main.44eb343a.js",
-    "runtime-main.js.map": "/nomination/static/js/runtime-main.44eb343a.js.map",
+    "main.js": "/nomination/static/js/main.a89c6c05.chunk.js",
+    "main.js.map": "/nomination/static/js/main.a89c6c05.chunk.js.map",
+    "runtime-main.js": "/nomination/static/js/runtime-main.9371e4ad.js",
+    "runtime-main.js.map": "/nomination/static/js/runtime-main.9371e4ad.js.map",
     "static/css/2.679831fc.chunk.css": "/nomination/static/css/2.679831fc.chunk.css",
     "static/js/2.c58a122b.chunk.js": "/nomination/static/js/2.c58a122b.chunk.js",
     "static/js/2.c58a122b.chunk.js.map": "/nomination/static/js/2.c58a122b.chunk.js.map",
-    "static/js/3.e8d9bc10.chunk.js": "/nomination/static/js/3.e8d9bc10.chunk.js",
-    "static/js/3.e8d9bc10.chunk.js.map": "/nomination/static/js/3.e8d9bc10.chunk.js.map",
+    "static/js/3.ed9fb9fe.chunk.js": "/nomination/static/js/3.ed9fb9fe.chunk.js",
+    "static/js/3.ed9fb9fe.chunk.js.map": "/nomination/static/js/3.ed9fb9fe.chunk.js.map",
     "static/js/4.aa5ca8a5.chunk.js": "/nomination/static/js/4.aa5ca8a5.chunk.js",
     "static/js/4.aa5ca8a5.chunk.js.map": "/nomination/static/js/4.aa5ca8a5.chunk.js.map",
     "static/js/5.528ca1ad.chunk.js": "/nomination/static/js/5.528ca1ad.chunk.js",
@@ -28,9 +28,9 @@
     "static/media/when-death-happens.acbe6281.png": "/nomination/static/media/when-death-happens.acbe6281.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.44eb343a.js",
+    "static/js/runtime-main.9371e4ad.js",
     "static/css/2.679831fc.chunk.css",
     "static/js/2.c58a122b.chunk.js",
-    "static/js/main.c8f6836a.chunk.js"
+    "static/js/main.a89c6c05.chunk.js"
   ]
 }
