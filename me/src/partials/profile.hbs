@@ -1,0 +1,52 @@
+<section class="section-myinfo">
+  <div class="container profile-row">
+    <div class="row">
+      <div class="col col-sm-6">
+
+        <img src="./assets/who-am-i.svg" alt="Who Am I" height="80" />
+
+        <h2 class="profile-name">{{fullname}}</h2>
+
+        <ul class="list-no-type">
+          <li>🖥 Front-end Developer</li>
+          <li>🇻🇳 Born in Vietnam on {{birthday}}</li>
+          <li>🇸🇬 Working in Singapore</li>
+          <li>‍🎓 University of Information Technology VNU-HCM</li>
+          <li>💪🏼 Meticulous Frontend developer with more than
+            <strong>6 years</strong>
+            experience, strong at HTML, CSS, JavaScript Fundamental and passion
+            for responsive and mobile first approach. More than 4 years working
+            with ReactJS</li>
+          <li class="text-with-icon"><img
+              class="icon"
+              src="./assets/figma.svg"
+              alt="Figma"
+            />
+            Comfortable using Figma to create wireframes</li>
+          <li>🌅 Passionate in Responsive Web Design, some achievements
+            <a target="_blank" href="https://www.vib.com.vn/en/home">VIB</a>
+            and
+            <a target="_blank" href="https://tiki.vn/">Tiki.vn</a></li>
+        </ul>
+        <hr />
+        <ul class="social-list inline-list">
+          <li>looking for me? 👉 </li>
+          <li><a href="mailto:{{email}}"><img
+                src="./assets/gmail.svg"
+                alt="Gmail"
+                height="20"
+              /></a></li>
+          {{#each socials}}
+            <li><a target="_blank" rel="noopener noreferer" href="{{link}}"><img
+                  src="./assets/{{icon}}.svg"
+                  alt="{{icon}}"
+                  height="20"
+                /></a></li>
+          {{/each}}
+        </ul>
+      </div>
+      <div class="col col-sm-6 profile-img-wrapper">
+        <img class="profile-img" src="./assets/me.png" alt="Thang Kieu" />
+      </div>
+    </div></div>
+</section>

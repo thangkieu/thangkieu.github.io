@@ -1,0 +1,155 @@
+@import "./_variables.less";
+
+@experience-gap: 5rem;
+
+.company-logo {
+  .company-logo(#ffd9e3);
+  font-size: 3rem;
+}
+
+.company-letter {
+  z-index: 2;
+  font-size: 70%;
+}
+
+.experience-item {
+  .glass-bg();
+  padding: 1rem;
+  border-radius: 20px;
+  color: white;
+  position: relative;
+  margin-bottom: var(--gutter);
+
+  .company {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+
+  .duration {
+    margin-top: 0;
+    font-weight: 300;
+  }
+
+  .job-title {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+}
+
+.section-experience.section-experience {
+  background-color: #001717;
+  padding: 2rem 0;
+}
+
+.experience-left,
+.experience-right {
+  flex: 1 1 auto;
+}
+
+.experience-left {
+  // display: flex;
+  // flex-direction: column;
+  // align-items: flex-end;
+  // margin-right: @experience-gap;
+  // margin-top: 10rem;
+
+  // .company-logo {
+  //   left: calc(100% + @experience-gap);
+  //   transform: translateX(-50%);
+
+  //   .bar::before {
+  //     right: 50%;
+  //     z-index: -2;
+  //   }
+  // }
+}
+
+.experience-right {
+  // margin-left: @experience-gap;
+
+  // .company-logo {
+  //   right: calc(100% + @experience-gap);
+  //   transform: translateX(50%);
+
+  //   .bar::before {
+  //     left: 50%;
+  //     z-index: -2;
+  //   }
+  // }
+}
+
+@media screen and (min-width: 662px) {
+  .company-logo {
+    position: absolute;
+    bottom: 2rem;
+
+    .bar::before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 50%;
+      display: block;
+      width: @experience-gap;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    }
+  }
+
+  .experience-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: @experience-gap;
+    margin-top: 10rem;
+
+    .company-logo {
+      left: calc(100% + @experience-gap);
+      transform: translateX(-50%);
+
+      .bar::before {
+        right: 50%;
+        z-index: -2;
+      }
+    }
+  }
+
+  .experience-right {
+    margin-left: @experience-gap;
+
+    .company-logo {
+      right: calc(100% + @experience-gap);
+      transform: translateX(50%);
+
+      .bar::before {
+        left: 50%;
+        z-index: -2;
+      }
+    }
+  }
+
+  .experience-row {
+    display: flex;
+    position: relative;
+
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 50%;
+      top: 0;
+      height: 100%;
+      border-right: 1px solid rgba(255, 255, 255, 0.4);
+      z-index: 0;
+    }
+  }
+
+  .experience-item {
+    max-width: 20rem;
+
+    & + & {
+      margin-top: 5rem;
+    }
+  }
+}

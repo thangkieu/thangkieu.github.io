@@ -1,0 +1,144 @@
+{
+  "fullname": "Kieu Quoc Thang",
+  "birthday": "15th May 1991",
+  "email": "kqthang1505@gmail.com",
+  "socials": [
+    { "icon": "github", "link": "https://github.com/thangkieu" },
+    { "icon": "telegram", "link": "https://t.me/thangkieu" },
+    {
+      "icon": "figma",
+      "link": "https://www.figma.com/file/MUFTzEgJopLKQfIrIOByZl/G%C3%A1nh-H%C3%A0ng-Rong---Mockup?node-id=3%3A13195"
+    }
+  ],
+  "skills": [
+    {
+      "name": "React",
+      "icon": "react",
+      "color": "#17A9D3",
+      "level": 80
+    },
+    {
+      "name": "Redux",
+      "icon": "redux",
+      "color": "#764ABC",
+      "level": 60
+    },
+    {
+      "name": "Sass",
+      "icon": "sass",
+      "color": "#CF649A",
+      "level": 80
+    },
+    {
+      "name": "TypeScript",
+      "icon": "ts",
+      "color": "#337FD2",
+      "level": 70
+    },
+    {
+      "name": "English",
+      "icon": "united-kingdom",
+      "color": "#41479B",
+      "level": 60
+    }
+  ],
+  "experiences": [
+    {
+      "company": "2359Media Singapore",
+      "position": "Front-End Engineer",
+      "time": "April 2019 - On going",
+      "description": "2359 is an award-winning full-service consultancy that operates at the intersection of Design, Technology, Innovation, and Business. Besides working as a Front-End Engineer, I have the opportunity to work on UI projects.",
+      "logo": "2359",
+      "color": "#f6941e",
+      "highlights": []
+    },
+    {
+      "company": "2359Media Vietnam",
+      "position": "Front-End Engineer",
+      "time": "Sep 2017 - Apr 2019",
+      "description": "I worked on chatbot product - Botbot.AI. It is a productivity solution that drives productivity, enhances customer experience, maximizes human potential and elevates employee engagement through automating conversations. My Front-End team was building dashboards as well as a chat window to bring our automating conversations to customers.",
+      "logo": "2359",
+      "color": "#f6941e",
+      "highlights": []
+    },
+    {
+      "company": "Tiki.vn",
+      "position": "Front-End Engineer",
+      "time": "May 2016 - Sep 2017",
+      "description": "Tiki Corporation is one of the biggest E-commerce companies in Vietnam. As a Front-End Engineer, I worked on the mobile version of its website.",
+      "logo": "tiki",
+      "color": "#1BA8FF",
+      "highlights": []
+    },
+    {
+      "company": "NauStudio",
+      "position": "Front-End Engineer",
+      "time": "Apr 2014 - May 2016",
+      "description": "In Nau Studio, I worked with my team to deliver great experiences to users of mobile applications  and websites. The aim was to make things easier for them, help their brands grow, and transform  businesses in the digital world.",
+      "logo": "nau",
+      "color": "#ffd9e3",
+      "highlights": []
+    }
+  ],
+  "freelances": [
+    {
+      "company": "Triip.me",
+      "link": "https://www.triip.me/",
+      "position": "Front-End developer",
+      "description": "Travel platform to help travellers and local tour guides connect and make awesome trips with special local foods and places; https://www.triip.me/",
+      "logo": "TIIM",
+      "color": "#e8fdff",
+      "textColor": "#46C2CB",
+      "highlights": ["Templating (Handlebars)", "CSS processor (SASS)", "Gulp"]
+    },
+    {
+      "company": "divui.com",
+      "link": "https://divui.com/",
+      "position": "Front-End developer",
+      "description": "Converting UI from Sketch to HTML & CSS",
+      "logo": "divui",
+      "color": "#FF4400",
+      "highlights": ["Templating (Handlebars)", "CSS processor (SASS)", "Gulp"]
+    },
+    {
+      "company": "AnNam Funiture",
+      "link": "https://www.behance.net/gallery/66949699/Annam-Funiture",
+      "position": "Front-End developer",
+      "description": "Converting UI from Sketch to HTML & CSS",
+      "logo": "annam",
+      "color": "#ffffff",
+      "textColor": "#333333",
+      "highlights": ["Templating (Handlebars)", "CSS processor (SASS)", "Gulp"]
+    },
+    {
+      "company": "Thi Kệ",
+      "link": "https://chrome.google.com/webstore/detail/thi-k%E1%BB%87/ddpdipnedfpfeljkgclbocgkcmllfpph",
+      "position": "Chrome Extension",
+      "description": "An extension of chrome to replace the start page which has random poetry of Thích Nhất Hạnh Zen master and other helpers",
+      "logo": "chrome-web-store",
+      "color": "#ffffff",
+      "textColor": "#333333",
+      "highlights": ["ReactJS", "Strapi (CMS)"]
+    },
+    {
+      "company": "Recipes - side project",
+      "link": "https://thangkieu.github.io/recipes/",
+      "position": "Full Stack - Angular + Firebase",
+      "description": "A side project which was implementing using Angular + Firebase",
+      "logo": "",
+      "color": "#ffffff",
+      "textColor": "#0d6efd",
+      "highlights": ["Angular (latest)", "Firestore + Firebase Authentication"]
+    },
+    {
+      "company": "EDM Design - side project",
+      "link": "https://thangkieu.github.io/edm-design/",
+      "position": "React, Recoil",
+      "description": "Email template design",
+      "logo": "",
+      "color": "#ffffff",
+      "textColor": "#764abc",
+      "highlights": ["React", "Recoil", "Typescript"]
+    }
+  ]
+}

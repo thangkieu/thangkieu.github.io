@@ -1,0 +1,65 @@
+.skill-list {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.skill-state {
+  border: 3px solid currentColor;
+  border-radius: 100%;
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
+  width: 90px;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  transform: translate3d(0, 0, 0);
+
+  img {
+    transform: translate3d(0, 0, 0);
+    width: 60%;
+  }
+}
+
+.skill-name {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -100%;
+  }
+}
+
+@keyframes swell {
+  0%,
+  100% {
+    transform: translate3d(0, -2px, 0);
+  }
+  50% {
+    transform: translate3d(0, 2px, 0);
+  }
+}
+
+.wave-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  svg {
+    width: 300%;
+    animation: wave 3s cubic-bezier(0.36, 0.45, 0.63, 0.53) -125ms infinite,
+      swell 3s ease -1.125s infinite;
+  }
+}

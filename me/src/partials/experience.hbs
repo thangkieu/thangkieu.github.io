@@ -1,0 +1,15 @@
+<article class="experience-item">
+  <h2 class="company" style="color: {{color}};">{{company}}</h2>
+  <small class="duration">{{time}}</small>
+  <h4 class="job-title">{{position}}</h4>
+  <p class="description">{{description}}</p>
+  <ul class="highlight-list">
+    {{#each highlights}}
+      <li>{{this}}</li>
+    {{/each}}
+  </ul>
+  <div class="company-logo" style="color: {{color}};">
+    <img src="./assets/{{logo}}.png" alt="2359" />
+    <span class="bar"></span>
+  </div>
+</article>

@@ -1,0 +1,65 @@
+@import "./_variables.less";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: "Noto Sans Display", sans-serif;
+  background-color: @even-bg;
+}
+
+a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  color: @primary-color;
+}
+
+[class^="section-"] {
+  padding: 2rem 0;
+}
+
+[class^="section-"]:nth-child(even) {
+  background-color: @even-bg;
+}
+
+ul {
+  padding-left: 1rem;
+
+  > li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+footer {
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+.icon {
+  height: 1.2em;
+}
+
+hr {
+  border: none;
+  margin: 1rem 0;
+  border-top: 1px solid #dddddd;
+}

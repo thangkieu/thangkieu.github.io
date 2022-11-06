@@ -1,0 +1,41 @@
+<main>
+  <section class="section-experience">
+    <div class="container experience-row">
+      <div class="experience-left">
+        {{#each experiences}}
+          {{#odd @index }}
+        {{else}}
+          {{> experience}}
+          {{/odd}}
+        {{/each}}
+      </div>
+      <div class="experience-right">
+        {{#each experiences}}
+          {{#odd @index }}
+            {{> experience}}
+          {{/odd}}
+        {{/each}}
+      </div>
+    </div>
+  </section>
+
+  {{> skills }}
+
+  <section class="section-freelance">
+    <div class="container freelance-list">
+      <div class="row">
+        {{#each freelances}}
+        <div class="col col-sm-6 col-md-4">
+          {{> freelance }}
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      All rights reserved. Created with ❤️ by <strong>me</strong>.
+    </div>
+  </footer>
+</main>

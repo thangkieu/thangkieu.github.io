@@ -1,0 +1,20 @@
+<div class="freelance-project">
+  <div class="company-logo" style="color: {{color}}">
+    {{#if logo}}
+    <img src="./assets/{{logo}}.png" alt="{{company}}">
+    {{else}}
+      <span class="company-letter" style="color: {{textColor}};">{{> firstCharacter company}}</span>
+    {{/if}}
+    <span class="bar" style="border-color: {{#if textColor}} {{textColor}} {{else}} {{color}} {{/if}}"></span>
+  </div>
+  <h2 class="project-title" style="color: {{#if textColor}} {{textColor}} {{else}} {{color}} {{/if}}">
+    <a target="_blank" href="{{link}}">{{company}}</a>
+  </h2>
+  <p class="project-role">{{position}}</p>
+  <p class="project-description">{{description}}</p>
+  <ul class="project-tech">
+    {{#each highlights}}
+      <li>{{this}}</li>
+    {{/each}}
+  </ul>
+</div>
