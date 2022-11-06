@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "description": "Thang Kieu resume",
+  "name": "My Resume",
+  "version": "1.0.7",
+  "background_color": "#001717",
+  "browser_action": {
+    "default_title": "My Resume",
+    "default_icon": "/favicon.ico"
+  }
+}
