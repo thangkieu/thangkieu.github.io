@@ -1,37 +1,8 @@
-## Welcome to GitHub Pages
+### Kieu Quoc Thang
 
-You can use the [editor on GitHub](https://github.com/thangkieu/thangkieu.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/thangkieu/thangkieu.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+🖥 Front-end Developer
+🇻🇳 Born in Vietnam on 15th May 1991
+🇸🇬 Working in Singapore
+‍🎓 University of Information Technology VNU-HCM
+💪🏼 Meticulous Frontend developer with more than 6 years experience, strong at HTML, CSS, JavaScript Fundamental and passion for responsive and mobile first approach. More than 4 years working with ReactJS
+![Figma](./assets/figma.svg) FigmaComfortable using Figma to create wireframes
